@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: black;
+}
+
+.App {
+  color: white;
+}
+
+.board {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.box {
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+}
+
+.box img {
+  height: 150px;
+}
+
+.hidden {
+  display: none;
+}
+
+.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* .game-board {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+  }
+  
+  // for some css stylings
+  body {
+  display: flex;
+  justify-content: center;
+  }
+  .box {
+  background: #444;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
+  } */
